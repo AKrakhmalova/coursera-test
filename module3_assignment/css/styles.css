@@ -1,0 +1,96 @@
+/*Header navbar css styles */
+#header-nav
+{
+	background-color: gray;
+	border-radius: 0;
+	border: 3px solid black;
+}
+
+#brand-name
+{
+	height: 70px;
+}
+
+#brand-name h1
+{
+	margin: auto;
+	color: black;
+	font-family: 'Lora', serif;
+}
+
+.navbar-brand a:hover, navbar-brand a:focus
+{
+	text-decoration: none;
+}
+
+ .navbar-header button.navbar-toggle
+/*#collapsed-menu-button*/
+{
+	border: 1px solid black;
+}
+
+.navbar-header .navbar-toggle:focus,
+.navbar-header .navbar-toggle:hover
+{
+	border: 1px solid white;
+}
+
+
+.navbar-header .navbar-toggle:focus > span.icon-bar,
+.navbar-header .navbar-toggle:hover > span.icon-bar,
+{
+	background-color:white;
+}
+
+.navbar-header .navbar-toggle>span.icon-bar
+{
+	background-color:black;
+}
+
+
+#mycollapsable-nav > ul > li > a
+{
+	color: black;
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 150%;
+}
+
+#mycollapsable-nav > ul > li > a:focus,
+#mycollapsable-nav > ul > li > a:hover
+{
+	background-color:#ddd;
+}
+
+/*End of Header navbar styles*/
+
+/* Main page content styles */
+#main-content
+{
+	font-family: 'Lora', serif;
+	color: black;
+}
+
+#menu-title
+{
+	margin-bottom: 20px;
+}
+
+#menu-title>h3
+{
+	margin-bottom: 10px;
+}
+
+#section-content
+{
+	padding: 0px 15px 10px 15px;
+}
+
+#section-content>div
+{
+	background-color: gray;
+	padding: 10px;
+	height: 600px;
+	overflow: auto;
+}
+/* End of the main page content styles */
